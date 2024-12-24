@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .navbar {
+      background-color:#0a0b27; /* Frooti-like color */
+      
+  }
+  
+  .navbar-brand img {
+      height: 30px;
+      padding-top:3px;
+      padding-left: 17px;
+  }
+  nav ul li {
+    padding-right: 30px;
+  }
+
+  .nav-link {
+      color: #fff !important;
+      font-weight: 400;
+      padding-right: 10px;
+      transition: color 0.5s ease;
+  }
+
+  .nav-link:hover {
+      color: red !important;
+  }
+
+  .navbar-toggler-icon {
+      background-color: #fff; /* Toggler color */
+  }
+  .navbar.fixed-top {
+      z-index: 9999;
+  }
+  /* Change the background color and text color of the dropdown menu */
+  .dropdown-menu {
+      background-color: #ff5733;
+      color: #ffffff; 
+  }
+
+  /* Change the background color on hover */
+  .dropdown-menu a:hover {
+    color: #6d0724;
+  }
+
+
+  .search-input {
+      border-radius: 20px;
+      border: none;
+      padding: 5px 10px;
+      width: 150px;
+  }
+
+  /* Media query for larger screens */
+  @media (min-width: 768px) {
+      .navbar .navbar-nav {
+          margin-left: auto;
+      }
+  } /* When the screen width is smaller than 768px,
+       the navbar collapses into a hamburger menu, 
+       and the navigation links are hidden. */
+
+  .leave-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+  }
+  /* Fixed rotating image */
+  .rotate-image {           
+      transform-origin: center; 
+      transition: transform 0.1s ease-out; 
+  }
+
+  .social-icons{
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .col-auto{
+     padding-right: 0;
+     float: left;
+  }
+ 
+.top-footer{
+  margin: 40px;
+}
+.top-footer p{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer .top-footer a{
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.5;
+  transition: color 0.5s ease;
+}
+ 
+footer .top-footer a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+.main-text{
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "EksellDisplayWeb-Small";
+  
+ 
+}
+.content p{
+  font-size: 22px;
+  font-weight: 500;
+}
